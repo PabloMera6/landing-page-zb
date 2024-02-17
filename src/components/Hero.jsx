@@ -19,7 +19,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="md:col-span-4 flex items-center justify-center p-12">
-            <img src="logo-fondo.png"className="h-40 object-cover"/>
+            <img src="hero.png"className="h-30 object-cover mr-20"/>
         </div>
     </section>
   )
