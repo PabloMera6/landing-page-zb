@@ -3,7 +3,7 @@
 const Hero = () => {
   return (
     <section className='bg-bg'>
-        <div className="h-[90vh] grid grid-cols-1 md:grid-cols-10 xl:max-w-[2400px] l:max-w-[1200px] mx-auto">
+        <div id="home" className="h-[90vh] grid grid-cols-1 md:grid-cols-10 xl:max-w-[2400px] l:max-w-[1200px] mx-auto">
             <div className="md:col-span-5 flex items-center justify-center text-primary-100">
                 <div className="flex flex-col gap-2 text-center">
                     <h1 className="text-5xl xl:text-7xl font-bold">Bienvenidos!</h1>

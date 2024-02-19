@@ -1,5 +1,9 @@
+import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import Product from "./components/Product"
+import Releases from "./components/Releases"
+import Us from "./components/Us"
 
 
 function App() {
@@ -8,6 +12,10 @@ function App() {
     <div>
       <Header />
       <Hero />
+      <Product />
+      <Us />
+      <Releases />
+      <Contact />
     </div>
   )
 }
