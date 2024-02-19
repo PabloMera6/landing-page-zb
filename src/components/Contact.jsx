@@ -84,7 +84,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="p-2 bg-primary-200 text-white rounded-xl"
+              className="p-2 bg-primary-200 text-white rounded-xl mb-10"
             >
               Enviar
             </button>
