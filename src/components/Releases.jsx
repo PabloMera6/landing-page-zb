@@ -2,19 +2,47 @@ import React from 'react'
 
 const Releases = () => {
   return (
-    <div id="releases" className="bg-bg p-8 flex flex-col items-center justify-center gap-8 mt-0">
-    <h1 className="text-2xl font-medium text-gray-800 text-center">
-      Nuestros lanzamientos
-    </h1>
-    <div className="flex flex-col md:flex-row items-center flex-wrap gap-20">
-      <p className='w-40'>Devising a project</p>
-      <p className='w-40'>Sprint 1</p>
-      <p className='w-40'>Sprint 2</p>
-      <p className='w-40'>Sprint 3</p>
-      <p className='w-40'>Preparing project launch</p>
-      <p className='w-40'>World project launch</p>
+    <div
+      id="releases"
+      className=" bg-bg"
+    >
+      <div className='className="grid px-8 xl:px-20 xl:max-w-[1200px] l:max-w-[800px] md:max-w-[600px] mx-[2vh] md:mx-auto text-primary-200'>
+        <h1 className="text-[40px] font-bold">Nuestros lanzamientos</h1>
+        {/* Services */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-8 p-5">
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+            Devising a project
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+              Sprint 1
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+              Sprint 2
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+              Sprint 3
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+              Preparing project launch
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-gray-800">
+              World project launch
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   )
 }
 
