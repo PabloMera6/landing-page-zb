@@ -11,7 +11,7 @@ const Product = () => {
       id="product"
       className=" bg-bg"
     >
-      <div className='className="grid xl:p-20 xl:max-w-[1200px] l:max-w-[800px]  mx-auto text-primary-200'>
+      <div className='className="grid xl:p-20 xl:max-w-[1200px] l:max-w-[800px] md:max-w-[600px] mx-[2vh] md:mx-auto text-primary-200'>
         <h1 className="text-[40px] font-bold">¿Qué ofrecemos?</h1>
         {/* Services */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
