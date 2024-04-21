@@ -16,7 +16,7 @@ const Footer = () => {
             </div>
             <div className="mt-10 md:mt-20">
                 <p className="text-gray-300 text-center">
-                    © ISPP 2023 - All Rights Reserved
+                    © ISPP 2024 - All Rights Reserved
                 </p>
             </div>
         </footer>
