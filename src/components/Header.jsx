@@ -8,7 +8,7 @@ import {
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
-        <header className="flex items-center justify-between xl:justify-start w-full p-4 h-[10vh] bg-primary-100">
+        <header className="relative z-50 sticky top-0 flex items-center justify-between xl:justify-start w-full p-4 h-[10vh] bg-primary-100">
             <div className="xl:w-2/6 flex items-center justify-center h-full ml-[2vh]">
                 <img src="logo.png"className="max-h-full max-w-full object-cover"/>
             </div>

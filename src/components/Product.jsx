@@ -17,30 +17,30 @@ const Product = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col gap-2">
             <IoIosPricetag className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-            <h3 className="text-[20px] font-bold">Presupuesto Instantaneo</h3>
+            <h3 className="text-[20px] font-bold">Precios justos</h3>
             <p className="text-gray-500">
-              Sometimes features require a short description
+              Un lugar donde todas las personas interesadas en la impresión 3D puedan comprar y vender todo tipo de productos relacionados con la impresión 3D, desde figuras, diseños o materiales a impresoras 3D al mejor precio
             </p>
           </div>
           <div className="flex flex-col gap-2">
             <DiHtml53DEffects className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
             <h3 className="text-[20px] font-bold">Impresión bajo demanda</h3>
             <p className="text-gray-500">
-              Sometimes features require a short description
+              La posibilidad de imprimir tus propios diseños sin tener una impresora 3D
             </p>
           </div>
           <div className="flex flex-col gap-2">
             <SiMaterialdesignicons  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
             <h3 className="text-[20px] font-bold">Diseños a medida</h3>
             <p className="text-gray-500">
-              Sometimes features require a short description
+              Con la posibilidad de contactar con un diseñador para obtener un diseño a medida
             </p>
           </div>
           <div className="flex flex-col gap-2">
             <FaPeopleGroup  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
             <h3 className="text-[20px] font-bold">Comunidad</h3>
             <p className="text-gray-500">
-              Sometimes features require a short description
+              Con una comunidad de diseñadores y artistas donde podrás compartir tus creaciones
             </p>
           </div>
         </div>
