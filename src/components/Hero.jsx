@@ -15,7 +15,7 @@ const Hero = () => {
                     <h1 className="text-5xl xl:text-7xl font-bold">Bienvenidos!</h1>
                     <p className="text-2xl xl:text-4xl">Explora la innovación 3D.</p>
                     <p className="text-2xl xl:text-4xl">Descubre nuestra comunidad.</p>
-                    <div className="flex items-center justify-center gap-10 text-2xl xl:text-6xl">
+                    <div className="flex items-center justify-center gap-10 text-2xl xl:text-5xl m-5">
                         <a href="https://twitter.com/shar3d_2024">
                             <BsTwitterX className="transition-transform hover:scale-125" />
                         </a>
@@ -31,7 +31,7 @@ const Hero = () => {
                         <a href="https://www.tiktok.com/@shar3d_2024">
                             <FaTiktok className="transition-transform hover:scale-125" />
                         </a>
-                        <a href="https://www.instagram.com/shar3d_2024/">
+                        <a href="https://www.instagram.com/shar3d_es/">
                             <FaSquareInstagram className="transition-transform hover:scale-125" />
                         </a>
                     </div>
