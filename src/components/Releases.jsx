@@ -78,6 +78,16 @@ const Releases = () => {
           <div className="flex flex-col gap-2">
             <p className="text-gray-800">
               World project launch
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                <a href="https://shar3d.vercel.app/" className="relative flex h-[50px] w-40 rounded-xl items-center justify-center overflow-hidden bg-primary-200 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-primary-200 hover:shadow-primary-200 hover:before:border-[25px]">
+                  <span className="relative z-10">Frontend</span>
+                </a>
+              </div>
+              <div className="flex flex-col md:flex-row items-center justify-center gap-4">
+                <a href="https://shar3dcompany2.pythonanywhere.com/admin/" className="relative flex h-[50px] w-40 rounded-xl items-center justify-center overflow-hidden bg-primary-200 font-medium text-white shadow-2xl transition-all duration-300 before:absolute before:inset-0 before:border-0 before:border-white before:duration-100 before:ease-linear hover:bg-white hover:text-primary-200 hover:shadow-primary-200 hover:before:border-[25px]">
+                  <span className="relative z-10">Backend</span>
+                </a>
+              </div>
             </p>
           </div>
         </div>
