@@ -4,6 +4,11 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { SiMaterialdesignicons } from "react-icons/si";
 import { DiHtml53DEffects } from "react-icons/di";
 import { IoIosPricetag } from "react-icons/io";
+import { FaHome } from "react-icons/fa";
+import { MdOutlinePool } from "react-icons/md";
+import { LuParkingCircle } from "react-icons/lu";
+import { BiDrink } from "react-icons/bi";
+
 
 const Product = () => {
   return (
@@ -16,31 +21,31 @@ const Product = () => {
         {/* Services */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex flex-col gap-2">
-            <IoIosPricetag className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-            <h3 className="text-[20px] font-bold">Precios justos</h3>
+            <FaHome className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+            <h3 className="text-[20px] font-bold">Apartamentos turísticos</h3>
             <p className="text-gray-500">
-              Un lugar donde todas las personas interesadas en la impresión 3D puedan comprar y vender todo tipo de productos relacionados con la impresión 3D, desde figuras, diseños o materiales a impresoras 3D al mejor precio
+              Zahobreña es un complejo de ensueño, con 6 apartamentos turísticos en Zahora, Cádiz. Cada uno de estos apartamentos tiene capacidad para 4 personas y están equipados con todo lo necesario para disfrutar de unas vacaciones inolvidables. Cada unidad cuenta con patio, aire acondicionado, cocina totalmente equipada con microondas y fogones, salón, Smart TV, lavadora y baño con ducha.
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <DiHtml53DEffects className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-            <h3 className="text-[20px] font-bold">Impresión bajo demanda</h3>
+            <MdOutlinePool className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+            <h3 className="text-[20px] font-bold">Piscina al aire libre</h3>
             <p className="text-gray-500">
-              La posibilidad de imprimir tus propios diseños sin tener una impresora 3D
+              Se dispone de una piscina al aire libre, rodeada de un jardin con árboles y hamacas. Un lugar perfecto para relajarse y disfrutar del buen tiempo.
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <SiMaterialdesignicons  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-            <h3 className="text-[20px] font-bold">Diseños a medida</h3>
+            <LuParkingCircle  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+            <h3 className="text-[20px] font-bold">Parking gratuito</h3>
             <p className="text-gray-500">
-              Con la posibilidad de contactar con un diseñador para obtener un diseño a medida
+              Podrá aparcar su coche de manera gratuita durante todo el día en nuestro parking privado. Además, disponemos de una <strong>zona de carga para vehículos eléctricos</strong>.
             </p>
           </div>
           <div className="flex flex-col gap-2">
-            <FaPeopleGroup  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
-            <h3 className="text-[20px] font-bold">Comunidad</h3>
+            <BiDrink  className="text-4xl p-2 bg-secondary text-primary box-content rounded-xl" />
+            <h3 className="text-[20px] font-bold">Zona Chill Out</h3>
             <p className="text-gray-500">
-              Con una comunidad de diseñadores y artistas donde podrás compartir tus creaciones
+              Disponemos de una zona Chill Out, con sofás y mesas, donde podrá relajarse y disfrutar de un buen cóctel.
             </p>
           </div>
         </div>
