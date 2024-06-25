@@ -14,7 +14,6 @@ export default {
         hover: '#E0EEC6',
         bg: '#F1F7ED',
         placeholder: '#5C7A89',
-        buttons: '#D9D9D9',
       }
     },
   },

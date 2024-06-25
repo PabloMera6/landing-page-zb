@@ -42,26 +42,6 @@ const Product = () => {
             </p>
           </div>
         </div>
-        {/* Image Gallery */}
-        {/*<div className="mt-8">
-          <Swiper
-            navigation={true}
-            pagination={{ clickable: true }}
-            spaceBetween={50}
-            slidesPerView={1}
-          >
-            <SwiperSlide>
-              <img src={"Zahobreña Alta-2.jpg"} alt="Image 1" className="w-full h-auto rounded-md shadow-lg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={"Zahobreña Alta-2.jpg"} alt="Image 2" className="w-full h-auto rounded-md shadow-lg" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src={"Zahobreña Alta-2.jpg"} alt="Image 3" className="w-full h-auto rounded-md shadow-lg" />
-            </SwiperSlide>
-            {/* Agrega más SwiperSlide según sea necesario */}
-          {/*</Swiper>
-        </div>)*/}
       </div>
     </div>
   );
